@@ -1,0 +1,32 @@
+.container {
+  padding: 10px 0;
+  width: 40%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container span {
+  color: #fff;
+  font-family: "bold";
+  font-size: 1.5rem;
+}
+
+.success {
+  background-color: #16a34a;
+}
+
+.warning {
+  background-color: #f59e0b;
+}
+
+.error {
+  background-color: #dc2626;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+    box-sizing: border-box;
+  }
+}

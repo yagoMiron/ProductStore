@@ -1,0 +1,56 @@
+.loginPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  gap: 32px;
+}
+
+.title {
+  font-family: "bold";
+}
+
+.btnLogin {
+  background-color: #fef2f2;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.btnLogin:focus {
+  outline: 5px solid #94a3b8;
+}
+
+.btnLogin img {
+  width: 28px;
+}
+
+.btnLogin span {
+  color: #000;
+  font-family: "bold";
+  font-size: 22px;
+}
+
+.appTitle {
+  font-size: 1.8rem;
+  color: orange;
+}
+.appTitle strong {
+  font-size: 2rem;
+  font-family: "bold";
+}
+
+.stock {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+  align-self: center;
+}
+
+.logo {
+  display: flex;
+}

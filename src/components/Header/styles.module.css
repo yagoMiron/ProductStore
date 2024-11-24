@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #222f44;
+  border-bottom: orange 2px solid;
+}
+
+.backButton {
+  width: 24px;
+  filter: invert(1);
+  margin-right: 10px;
+}
+
+.backButton img {
+  width: 100%;
+}
+
+.appTitle {
+  font-size: 1.8rem;
+  color: orange;
+}
+.appTitle strong {
+  font-size: 2rem;
+  font-family: "bold";
+}
+
+.stock {
+  width: 40px;
+  margin-right: 12px;
+}
+
+.thumb {
+  width: 36px;
+  border-radius: 50%;
+  margin: 0 20px;
+  margin-left: auto;
+}
+
+.logout {
+  width: 24px;
+  filter: invert(1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 10px;
+  }
+}

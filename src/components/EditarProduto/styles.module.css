@@ -1,0 +1,86 @@
+.title {
+  color: orange;
+  font-family: "bold";
+  margin-top: 14px;
+  font-size: 1.5rem;
+}
+
+.content {
+  padding: 0px 6px;
+}
+
+.message {
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  box-sizing: border-box;
+  gap: 10px;
+  padding: 2px 8px;
+}
+.buttons button,
+.buttons input[type="submit"] {
+  width: 50%;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  color: white;
+  font-family: "bold";
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.editar {
+  background-color: #22c55e;
+}
+.editar:hover {
+  background-color: #55bd7b;
+}
+.editar:disabled {
+  background-color: gray;
+}
+
+.fechar {
+  background-color: rgb(250, 57, 57);
+}
+.fechar:hover {
+  background-color: rgb(253, 113, 113);
+}
+
+.productForm {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.productForm h2 {
+  text-align: center;
+  font-size: 32px;
+  color: orange;
+  font-family: "bold";
+}
+
+.productForm label {
+  color: rgb(255, 200, 17);
+  font-size: 1.2rem;
+  margin-bottom: 3px;
+}
+
+.productForm input[type="text"],
+.productForm input[type="number"] {
+  font-size: 1rem;
+  color: #0f172a;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 10px;
+  font-family: "regular";
+  margin-bottom: 10px;
+}
+
+.productForm input[type="text"]:focus,
+.productForm input[type="number"]:focus {
+  outline: 2px solid orange;
+}
